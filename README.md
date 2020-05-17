@@ -21,7 +21,7 @@ builds: ```active```
 
 ---
 
-### *Local*
+### *Development*
 
 build: ```npm run serve```
 
