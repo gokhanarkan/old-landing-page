@@ -5,32 +5,35 @@
 
 */
 
-const sgMail = require("@sendgrid/mail");
+const sgMail = require('@sendgrid/mail');
 
 exports.handler = async (event) => {
+  
   const data = JSON.parse(event.body);
-
+  
   sgMail.setApiKey(process.env.SENDGRID_API_KEY);
+  
   try {
-
+    
     const msg = {
       to: process.env.TO_EMAIL,
       from: {
         email: process.env.FROM_EMAIL,
-        name: process.env.FROM_NAME,
+        name: process.env.FROM_NAME
       },
-      subject: "Message from gokhanarkan.com",
-      text: data["text"],
-      html: `<strong>${data["text"]}</strong>`,
-    };
-
-    return await sgMail.send(msg);
-
-  } catch (err) {
-
-    return {
-      msg: "Error happened",
+      subject: `Message from ${data['email']}`,
+      text: data['text'],
+      html: `<strong>${data['text']}</strong>`,
     };
     
+    return await sgMail.send(msg);
+    
+  } catch (err) {
+    
+    return {
+      "msg": "Error happened",
+    }
+    
   }
+    
 };

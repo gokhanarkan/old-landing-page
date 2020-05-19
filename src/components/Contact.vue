@@ -113,6 +113,7 @@ methods: {
             const message = this.message;
 
             const data = {
+                "email": email,
                 "text": `Name: ${name}<br>Email: ${email}<br>Message: ${message}`
             }
 
