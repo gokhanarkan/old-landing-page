@@ -14,9 +14,11 @@
                 In fact, I'll be glad to accompany charity/volunteer work as a photographer.<br><br>
             Although I am not actively using social media, please feel free to
                 <a style="text-decoration:underline;background:unset;text-shadow:unset;" href="mailto:hi@gokhanarkan.com">
-                    email me</a> if you have any enquiries.<br><br></p>
+                    email me</a> if you have any enquiries.<br><br>
+                    Alternatively, click below to contact me.</p>
 
         </section>
+        
 
     </article>
 </template>
@@ -33,11 +35,10 @@ export default {
 
 
 <style scoped>
-    :root {
-    --main-color: #233646;
-    --light-color: #c8c9cd;
-    }
     .article, h1, p {
         color: #c8c9cd;
+    }
+    .article {
+        padding: 0;
     }
 </style>

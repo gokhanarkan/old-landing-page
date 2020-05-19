@@ -1,18 +1,23 @@
 <template>
   <div id="app">
+    <v-divider></v-divider>
     <toggle-button @change="changeTheme()" :value="true"
-               :labels="{checked: 'Dark Mode', unchecked: 'Light Mode'}" :color="{checked: '#c8c9cd', unchecked: '#233646'}" :width="80" class="toggle-button"/>
+               :labels="{checked: 'Dark Mode', unchecked: 'Light Mode'}" :color="{checked: '#6e6e6e', unchecked: '#233646'}" :width="80" class="toggle-button"/>
     <About second_occupation="Tea Lover"/>
+      <Contact />
+      <div class="handout"></div>
   </div>
 </template>
 
 <script>
 import About from './components/About.vue'
+import Contact from './components/Contact'
 
 export default {
   name: 'App',
   components: {
-    About
+    About,
+    Contact
   },
   methods: {
     changeTheme: function() {
@@ -38,10 +43,8 @@ export default {
   .toggle-button {
     float: right;
   }
-  @media only screen and (min-width: 760px) {
-    .toggle-button {
-      float: left;
-    }
+  .handout {
+    padding-bottom: 5rem;
   }
   @import './assets/styles/tufte.min.css';
 </style>
