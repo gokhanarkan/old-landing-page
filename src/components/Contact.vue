@@ -44,6 +44,7 @@
                     single-line
                     ></v-textarea>
                 </v-col>
+                
               </v-row>
             </v-container>
           </v-card-text>
@@ -83,7 +84,7 @@ computed: {
     nameErrors () {
     const errors = []
     if (!this.$v.name.$dirty) return errors
-    !this.$v.name.maxLength && errors.push('Name must be at most 20 characters long')
+    !this.$v.name.maxLength && errors.push('Name must be at most 20 characters long.')
     !this.$v.name.required && errors.push('Name is required.')
     return errors
     },
@@ -91,13 +92,13 @@ computed: {
     const errors = []
     if (!this.$v.email.$dirty) return errors
     !this.$v.email.email && errors.push('Must be valid e-mail')
-    !this.$v.email.required && errors.push('E-mail is required. Please.')
+    !this.$v.email.required && errors.push('E-mail is required.')
     return errors
     },
     messageErrors () {
         const errors = []
-        if (!this.$v.email.$dirty) return errors
-        !this.$v.message.required && errors.push('Message is required. Come on.')
+        if (!this.$v.message.$dirty) return errors
+        !this.$v.message.required && errors.push('Message is required.')
         return errors
     }
 },
@@ -137,13 +138,12 @@ methods: {
         }
 
     },
-    // Clears the fields. I am not using currently.
-    clear () {
 
+    // Clears the fields.
+    clear () {
         this.name = '';
         this.email = '';
         this.message = '';
-
         }
     }
 }
@@ -158,6 +158,7 @@ methods: {
     overflow: hidden;
     min-height: 36px !important;
     background-color: #233646;
+    border-radius: 5%;
 }
 
 </style>
