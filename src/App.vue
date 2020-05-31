@@ -25,6 +25,8 @@ export default {
       document.getElementById("name").classList.toggle("dark-text");
       document.getElementById("occupation").classList.toggle("dark-text");
       document.getElementById("body").classList.toggle("dark-text");
+      document.getElementById("body-other").classList.toggle("dark-text");
+      document.getElementById("projects").classList.toggle("dark-text");
     }
   }
 }
