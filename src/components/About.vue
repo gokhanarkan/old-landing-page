@@ -1,7 +1,7 @@
 <template>
     <article class="article">
 
-        <a class="links" href="https://blog.gokhanarkan.com" id="projects" target="_blank"
+        <a class="links" href="https://arkan.me" id="projects" target="_blank"
             rel="noreferrer noopener">
             Projects Blog
         </a>
