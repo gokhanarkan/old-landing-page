@@ -7,7 +7,7 @@
       target="_blank"
       rel="noreferrer noopener"
     >
-      Projects Blog
+      My Blog
     </a>
     <br /><br />
 
@@ -51,12 +51,10 @@
         Although I am not actively using social media, please feel free to email
         me at
         <a class="links" href="mailto:gokhan@hey.com"> gokhan@hey.com</a> if you
-        have any enquiries.<br /><br />
+        have any enquiries. If you are unreasonable enough,
         <a class="links" href="https://post.arkan.me" target="_blank"
-          >If you are unreasonable enough, you can send me a POST request,
-          too.</a
-        >
-        <br /><br />
+          >you can send me a POST request</a
+        >, too. <br /><br />
         Alternatively, use the below button to contact me.
       </p>
     </section>

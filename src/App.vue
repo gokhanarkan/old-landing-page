@@ -28,11 +28,10 @@
     methods: {
       changeTheme: function() {
         document.body.classList.toggle("light-background");
-        document.getElementById("name").classList.toggle("dark-text");
-        document.getElementById("occupation").classList.toggle("dark-text");
-        document.getElementById("body").classList.toggle("dark-text");
-        document.getElementById("body-other").classList.toggle("dark-text");
-        document.getElementById("projects").classList.toggle("dark-text");
+        const items = ["name", "occupation", "body", "body-other", "projects"];
+        items.forEach((item) => {
+          document.getElementById(item).classList.toggle("dark-text");
+        });
       },
     },
   };
