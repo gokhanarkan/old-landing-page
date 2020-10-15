@@ -38,6 +38,7 @@
 </script>
 
 <style>
+  @import "./assets/styles/tufte.min.css";
   body {
     background-color: #233646;
   }
@@ -53,5 +54,4 @@
   .handout {
     padding-bottom: 5rem;
   }
-  @import "./assets/styles/tufte.min.css";
 </style>
