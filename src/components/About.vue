@@ -19,8 +19,8 @@
 
     <section class="body">
       <p id="body">
-        I am a backend focused software engineer based in London, UK. (born
-        &amp; raised in Istanbul, Turkey)<br /><br />
+        I am a full-stack software engineer based in London, UK. (born &amp;
+        raised in Istanbul, Turkey)<br /><br />
         I work in fintech and studying towards my Master's degree at the
         University of Oxford.<br /><br />
         My professional interests are; distributed systems, machine learning,
