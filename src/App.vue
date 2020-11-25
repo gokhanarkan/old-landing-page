@@ -39,7 +39,7 @@
       },
       changeProperties: function() {
         document.body.classList.toggle("light-background");
-        const items = ["name", "occupation", "body", "body-other", "projects"];
+        const items = ["name", "occupation", "body", "projects"];
         items.forEach((item) => {
           document.getElementById(item).classList.toggle("dark-text");
         });

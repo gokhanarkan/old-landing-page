@@ -21,19 +21,14 @@
       <p id="body">
         I am a full-stack software engineer based in London, UK. (born &amp;
         raised in Istanbul, Turkey)<br /><br />
-        I work in fintech and studying towards my Master's degree at the
-        University of Oxford.<br /><br />
-        My professional interests are; distributed systems, machine learning,
-        reliability &amp; scalability and human-computer interaction.
-      </p>
-
-      <p id="body-other">
-        I like listening<label
+        I work in fintech and studying part-time towards my Master's degree at
+        the University of Oxford.<br /><br />
+        I like video-games, listening<label
           class="margin-toggle sidenote-number"
           for="band"
         ></label
-        ><input type="checkbox" id="band" class="margin-toggle" /> &amp;
-        creating music,
+        ><input type="checkbox" id="band" class="margin-toggle" /> or creating
+        music,
         <span class="sidenote"
           ><em
             >My favourite band is
@@ -46,8 +41,19 @@
             ></em
           ></span
         >
-        cycling and photography. In fact, I'll be glad to accompany as a
-        photographer for charity.<br /><br />
+        cycling, and photography. In fact, I'll be glad to accept invitations as
+        a volunteer photographer for charity/community.<br /><br />
+        I like building toy projects; you can check them at
+        <a
+          class="links"
+          href="https://arkan.me"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          my side projects blog</a
+        >
+        as well.<br />
+        <br />
         Although I am not actively using social media, please feel free to email
         me at
         <a class="links" href="mailto:gokhan@hey.com"> gokhan@hey.com</a> if you
