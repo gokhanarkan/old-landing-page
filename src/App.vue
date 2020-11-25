@@ -27,7 +27,9 @@
     },
     data: function() {
       return {
-        theme: JSON.parse(localStorage.theme),
+        theme: localStorage.getItem("theme")
+          ? JSON.parse(localStorage.theme)
+          : true,
       };
     },
     methods: {
