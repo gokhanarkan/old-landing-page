@@ -42,7 +42,8 @@
           ></span
         >
         cycling, and photography. In fact, I'll be glad to accept invitations as
-        a volunteer photographer for charity/community.<br /><br />
+        a volunteer photographer for charity/community.
+        <br /><br />
         I like building toy projects; you can check them at
         <a
           class="links"
@@ -52,7 +53,9 @@
         >
           my side projects blog</a
         >
-        as well.<br />
+        as well.<span class="marginnote"
+          ><Spotify preference="mostRecent"/></span
+        ><br />
         <br />
         Although I am not actively using social media, please feel free to email
         me at
@@ -68,8 +71,13 @@
 </template>
 
 <script>
+  import Spotify from "./Spotify";
+
   export default {
     name: "About",
+    components: {
+      Spotify,
+    },
     props: {
       second_occupation: String,
     },
