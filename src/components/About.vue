@@ -29,18 +29,10 @@
         ></label
         ><input type="checkbox" id="band" class="margin-toggle" /> or creating
         music,
-        <span class="sidenote"
-          ><em
-            >My favourite band is
-            <a
-              class="links"
-              href="https://americanmary.com/"
-              target="_blank"
-              rel="noreferrer noopener"
-              >The National.</a
-            ></em
-          ></span
-        >
+        <span class="sidenote">
+          <em>Most recently played song on Spotify:</em
+          ><Spotify preference="mostRecent"
+        /></span>
         cycling, and photography. In fact, I'll be glad to accept invitations as
         a volunteer photographer for charity/community.
         <br /><br />
@@ -53,9 +45,7 @@
         >
           my side projects blog</a
         >
-        as well.<span class="marginnote"
-          ><Spotify preference="mostRecent"/></span
-        ><br />
+        as well.<br />
         <br />
         Although I am not actively using social media, please feel free to email
         me at

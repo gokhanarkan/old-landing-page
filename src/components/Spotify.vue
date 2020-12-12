@@ -1,6 +1,5 @@
 <template>
   <div v-if="title">
-    Most recently played song on Spotify:<br />
     <SpotifyCard
       :album="album"
       :albumImageUrl="albumImageUrl"
@@ -59,14 +58,7 @@
       },
     },
     mounted() {
-      /*
-       * I am not showing the Spotify track on mobile;
-       * so, no need to call the endpoint!
-       * thought this would be a performance bump
-       */
-      if (window.innerWidth > 899) {
-        this.getSpotifyData();
-      }
+      this.getSpotifyData();
     },
   };
 </script>
