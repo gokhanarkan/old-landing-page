@@ -2,6 +2,7 @@
   <article class="article">
     <a
       class="float-left links"
+      id="blog"
       href="https://arkan.me"
       target="_blank"
       rel="noreferrer noopener"

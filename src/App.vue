@@ -7,7 +7,7 @@
       :labels="{ checked: 'Dark Mode', unchecked: 'Light Mode' }"
       :color="{ checked: '#6e6e6e', unchecked: '#233646' }"
       :width="80"
-      class="float-right"
+      class="float-right sm:mr-10 lg:mr-24 xl:mr-40"
     />
     <div class="pb-20">
       <About second_occupation="Tea Lover" />
@@ -40,7 +40,7 @@
       },
       changeProperties: function() {
         document.body.classList.toggle("light-background");
-        const items = ["name", "occupation", "body", "projects"];
+        const items = ["name", "occupation", "body", "blog"];
         items.forEach((item) => {
           document.getElementById(item).classList.toggle("dark-text");
         });

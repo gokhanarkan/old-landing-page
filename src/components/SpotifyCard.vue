@@ -6,10 +6,10 @@
     rel="noreferrer noopener"
   >
     <div
-      class="inline-flex items-start border border-gray-300 dark:border-gray-800 rounded-lg w-72 mt-2 bg-white"
+      class="inline-flex items-start border border-gray-300 dark:border-gray-800 rounded-lg w-72 mt-2 p-2 bg-white"
     >
       <div
-        class="inline-block max-w-full overflow-hidden relative box-border m-0"
+        class="inline-block max-w-full overflow-hidden relative box-border m-0 album-cover"
       >
         <div class="box-border block max-w-full">
           <img
@@ -24,7 +24,7 @@
           alt="Spotify"
           :src="albumImageUrl"
           decoding="async"
-          class="rounded-lg w-60 h-60 visible absolute inset-0 box-border p-0 border-none m-auto block w-0 h-0 min-w-full max-w-full min-h-full max-h-full"
+          class="rounded-lg w-60 h-60 p-0 visible absolute inset-0 box-border border-none m-auto block min-w-full max-w-full min-h-full max-h-full"
         />
       </div>
       <div class="flex flex-col justify-center items-start ml-3">
@@ -60,5 +60,8 @@
   .card-link {
     background: unset;
     text-shadow: unset;
+  }
+  .album-cover {
+    margin-top: 0.25rem;
   }
 </style>
