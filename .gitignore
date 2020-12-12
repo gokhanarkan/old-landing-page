@@ -2,6 +2,8 @@
 node_modules
 /dist
 
+/src/assets/styles/tailwind.css
+
 # local env files
 .env.local
 .env.*.local

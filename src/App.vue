@@ -63,7 +63,7 @@
 </script>
 
 <style>
-  @import "./assets/styles/index.css";
+  @import "./assets/styles/tailwind.css";
   @import "./assets/styles/tufte.min.css";
   body {
     background-color: #233646;
