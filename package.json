@@ -6,7 +6,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "style": "tailwindcss build src/assets/styles/index.css -o src/assets/styles/tailwind.css"
+    "style": "NODE_ENV=production tailwindcss build src/assets/styles/index.css -o src/assets/styles/tailwind.css"
   },
   "dependencies": {
     "autoprefixer": "^9",
