@@ -59,7 +59,14 @@
       },
     },
     mounted() {
-      this.getSpotifyData();
+      /*
+       * I am not showing the Spotify track on mobile;
+       * so, no need to call the endpoint!
+       * thought this would be a performance bump
+       */
+      if (window.innerWidth > 899) {
+        this.getSpotifyData();
+      }
     },
   };
 </script>
