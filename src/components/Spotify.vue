@@ -1,5 +1,5 @@
 <template>
-  <div v-if="title">
+  <div>
     <SpotifyCard
       :album="album"
       :albumImageUrl="albumImageUrl"
@@ -54,7 +54,16 @@
           this.artist = data.artist;
           this.songUrl = data.songUrl;
           this.title = data.title;
+          return true;
         }
+        // In case if the Spotify API is broken
+        this.album = "Not available";
+        this.albumImageUrl =
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+";
+        this.artist = "Not available";
+        this.songUrl = "/";
+        this.title = "Not available";
+        return false;
       },
     },
     mounted() {
