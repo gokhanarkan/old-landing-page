@@ -7,11 +7,12 @@
       :labels="{ checked: 'Dark Mode', unchecked: 'Light Mode' }"
       :color="{ checked: '#6e6e6e', unchecked: '#233646' }"
       :width="80"
-      class="toggle-button"
+      class="float-right"
     />
-    <About second_occupation="Tea Lover" />
-    <Contact />
-    <div class="handout"></div>
+    <div class="pb-20">
+      <About second_occupation="Tea Lover" />
+      <Contact />
+    </div>
   </div>
 </template>
 
@@ -62,6 +63,7 @@
 </script>
 
 <style>
+  @import "./assets/styles/index.css";
   @import "./assets/styles/tufte.min.css";
   body {
     background-color: #233646;
@@ -72,10 +74,9 @@
   .dark-text {
     color: #233646 !important;
   }
-  .toggle-button {
-    float: right;
-  }
-  .handout {
-    padding-bottom: 5rem;
+  .links {
+    text-decoration: underline !important;
+    background: unset !important;
+    text-shadow: unset !important;
   }
 </style>

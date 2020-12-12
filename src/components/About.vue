@@ -1,9 +1,8 @@
 <template>
   <article class="article">
     <a
-      class="links"
+      class="float-left links"
       href="https://arkan.me"
-      id="projects"
       target="_blank"
       rel="noreferrer noopener"
     >
@@ -90,18 +89,7 @@
   p {
     color: #c8c9cd;
   }
-
   .article {
     padding: 0;
-  }
-
-  .links {
-    text-decoration: underline;
-    background: unset;
-    text-shadow: unset;
-  }
-
-  #projects {
-    float: left;
   }
 </style>
