@@ -1,28 +1,8 @@
 # gokhanarkan.com
 ---
 
-This is my personal landing page built with Vue.js and hosted with Netlify. The contact form is integrated with AWS Lambda and Node.js.
+This ~~is~~ was my personal landing page built with Vue.js and hosted on Netlify. The contact form was built with with AWS Lambda and Node.js.
 
-I will style this page similar to Edward Tufte's handouts. Check here for more: https://edwardtufte.github.io/tufte-css/
+The style was inspired by Edward Tufte's handouts. Check here for more: https://edwardtufte.github.io/tufte-css/
 
-Hoping to add personal projects route soon. Not too soon, though.
-
----
-
-### *Netlify*
-
-build command: ```npm run build```
-
-publish directory: ```dist```
-
-deploy log visibility: ```logs are public```
-
-builds: ```active```
-
----
-
-### *Development*
-
-build: ```npm run serve```
-
----
+I no longer use this page, though I will keep it live for the old times' sake. You can check the source code of my new landing page [here](https://github.com/gokhj/gokhanarkan.com).
